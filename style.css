@@ -1,0 +1,64 @@
+*{
+    text-align: center;
+}
+body{
+    display:flex;
+    flex-wrap: wrap;
+    padding:20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("img/infor.jpg");
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif,
+}
+header{
+    width: 100%;
+}
+h1{
+    font-size: 4em;
+    color: rgb(247, 163, 26);
+}
+h2{
+    height:100px;
+    font-size: 2.5em;
+}
+section{
+    overflow: hidden;
+    background-color:rgba(23, 57, 81, 0.53);
+    color:rgb(244, 244, 240);
+    border: 1px solid black;
+    border-radius: 5px 5px 5px;
+    margin-right: 20px;
+    margin-top: 20px;
+    height:150px;
+    width: 30%;
+    webkit-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+}
+section:hover{
+    height: 480px;
+}
+section h2{
+    webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+section:hover h2{
+    color:rgb(228, 228, 133);
+    transform: scale(1.05);
+}
+ol{
+    margin-bottom: -10px;
+    font-size: 1.1em;
+}
+li{
+    text-align: left;
+}
+span{
+    color: rgb(252, 1, 197);
+    text-decoration: underline;
+}
+footer{
+    margin-top:20px;
+    width: 100%;
+    color:white;
+}
+

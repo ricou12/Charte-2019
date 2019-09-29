@@ -1,0 +1,10 @@
+body {
+    background :#ffffff ;
+    display: block;
+}
+section{
+    margin-top:10px;
+    width: 20cm;
+    height:auto;
+    padding:1cm;
+}
